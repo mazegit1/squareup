@@ -34,7 +34,7 @@ const Header = () => {
             Services
           </Link>
           <Link
-            to="/work" // Work
+            to="/works" // Work
             className="text-white hover:bg-[#1E1E1E] px-4 py-2 rounded-2xl transition-all text-3xl ease-in-out duration-200"
           >
             Work
@@ -104,7 +104,7 @@ const Header = () => {
             Services
           </Link>
           <Link
-            to="/work" // Work
+            to="/works" // Work
             className="text-white text-4xl my-4 bg-[#1e1e1e] rounded-full px-8 py-4 hover:text-black shadow-2xl hover:bg-[#9EFF00] transition-all duration-200"
             onClick={() => setIsMenuOpen(false)}
           >
